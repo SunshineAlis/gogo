@@ -191,6 +191,9 @@
   text-align: center;
   padding: 45% 0px;
   visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .d1:hover .d1hidden{
   visibility: visible;
@@ -198,10 +201,11 @@
 .dv3text{
   height: 70px;
   width:300px;
-  text-align: center;
+  display:flex; justify-conten: center;
+  font-size: 12px;
 }
 .qrimg{
   width: 300px;
-  height: 370px;
+  height: 350px;
   border-radius: 15px;
 }
