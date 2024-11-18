@@ -226,3 +226,15 @@
   background-color: aliceblue;
   color: aliceblue;
 }
+.part3{
+    display: flex; justify-content: center;align-items: center;
+    margin: auto;
+    background-color: #e1e1e1;
+    border-radius: 15px;
+    max-width: 1200px; 
+    height: 350px;
+}
+.part3img{
+  width:200px;
+  height:300px;
+}
