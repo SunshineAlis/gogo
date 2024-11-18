@@ -7,9 +7,22 @@
 .flex {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
-
+.flexa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: beige;
+}
+.bigdiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
 .header {
   justify-content: space-between;
   margin: auto;
@@ -121,11 +134,13 @@
   padding-bottom: 15px;
 }
 .dv3 {
-  display: flex; justify-content: center;align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   background-color: #e1e1e1;
   border-radius: 15px;
-  max-width: 1200px; 
+  max-width: 1200px;
   height: 400px;
 }
 .DV2side {
@@ -173,17 +188,19 @@
 .imghover:hover {
   transform: rotate(30deg) scale(1.5);
 }
-.d1{
-  width:300px;
-  position:relative;
+.d1 {
+  width: 300px;
+  position: relative;
   border-radius: 15px;
   overflow: hidden;
-  margin:0;
-  display: flex;flex-direction: column;
-  justify-content:center;
-  align-items: center; gap:10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-.d1hidden{
+.d1hidden {
   position: absolute;
   top: 0;
   width: 100%;
@@ -199,24 +216,26 @@
   align-items: center;
   justify-content: center;
 }
-.d1:hover .d1hidden{
+.d1:hover .d1hidden {
   visibility: visible;
 }
-.dv3text{
-  width:280px;
-  display:flex; 
+.dv3text {
+  width: 280px;
+  display: flex;
   align-items: center;
   font-size: 12px;
   margin: auto;
 }
-.qrimg{
+.qrimg {
   width: 300px;
   height: 350px;
   border-radius: 15px;
 }
-.Dv2-1{display:flex;flex-direction: column;
-  justify-content: center; gap:10px; 
-  align-items:center"
+.Dv2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
 .button2 {
   width: 55px;
@@ -226,15 +245,60 @@
   background-color: aliceblue;
   color: aliceblue;
 }
-.part3{
-    display: flex; justify-content: center;align-items: center;
-    margin: auto;
-    background-color: #e1e1e1;
-    border-radius: 15px;
-    max-width: 1200px; 
-    height: 350px;
+.part3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+  max-width: 1200px;
+  height: 300px;width: 100%;
 }
-.part3img{
-  width:200px;
-  height:300px;
+.part3img {
+  width: 200px;
+  height: 300px;
+}
+.part3text {
+  height: 40px;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  color: white;
+  opacity: 1 !important;
+  width: fit-content;
+  transition: all 1s;
+}
+.DV2side:hover .part3text {
+  transform: translateY(-30px);
+  height: 70px;
+}
+.DV2side:hover .part3img {
+  transform: scale(1, 1.2);
+}
+
+.glogo {
+  position: absolute;
+  top: 0;
+}
+.part3header {
+  max-width: 1200px;
+  display: flex;
+  gap: 10px;
+  margin: auto;
+  width: 100%;
+}
+.hstyle {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+}
+.h1style {
+  color: #fff;
+  padding-top: 5px;
+  background-color: #00b0f4;
+  border-radius: 3px;
+  font-size: 18px;
 }
