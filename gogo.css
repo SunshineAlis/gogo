@@ -147,6 +147,7 @@
   overflow: hidden;
   border-radius: 15px;
   position: relative;
+  color: white;
 }
 
 .dv2hiddentext {
@@ -246,7 +247,7 @@
   color: aliceblue;
 }
 .part3 {
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -272,16 +273,23 @@
   transition: all 1s;
 }
 .DV2side:hover .part3text {
-  transform: translateY(-30px);
-  height: 70px;
+  transform: translateY(-50px);
+  height: 100px;
 }
-.DV2side:hover .part3img {
-  transform: scale(1, 1.2);
+.DV2side:hover .part3img .glogo{
+  transform: scale(1, 2);
 }
 
 .glogo {
   position: absolute;
   top: 0;
+}
+.eyelogo {
+  position: absolute;
+  bottom: 15px;
+  color:aliceblue;
+  width:30px;
+  height:30px
 }
 .part3header {
   max-width: 1200px;
