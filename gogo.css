@@ -244,9 +244,16 @@
   border-radius: 15px;
   border: none;
   background-color: aliceblue;
-  color: aliceblue;
+  padding:3px;
+  color: rgb(58, 61, 64);
 }
-.time {
+.arrowzero{
+  display: flex;gap: 5px; color: gray;
+  justify-content: center;align-items: center;}
+.timedate{display: flex;gap: 5px; color: gray;
+  justify-content: center;align-items: center; height: 30px;
+}
+.time{
   background-color: aliceblue;
   color: aliceblue;
   align-items: end;
@@ -375,10 +382,9 @@
   max-width: 1200px;
 }
 .part4divright {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 15px;
+  display: flex;flex-direction: column;
+  justify-content: left;
+  gap: 10px;
 }
 .part4button {
   background-color: #efefef;
@@ -402,23 +408,33 @@
 .parttext {
   color: #888888;
   padding-bottom: 15px;
+  font-size: 15px;
 }
 .part4right2 {
   display: flex;
-  gap: 15px;
+  gap: 20px;
+  align-items: center;
 }
 .part4right2text {
-  width: 500px;
+  width: 500px; height: 130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 15px;
+  gap: 10px;
 }
 .part4arrow {
   display: flex;
   justify-content: start;
   align-items: start;
-  gap: 20px;
+  gap: 40px;
+}
+.arrowtext{
+  display:flex; gap: 5px; color: gray;
+  justify-content: center;align-items: center;
+}
+.timetext{display: flex;color: gray;
+  height: 30px;
+  align-items: center; gap:5px;
 }
 .votesection {
   display: flex;
@@ -481,4 +497,12 @@
 .votetxt {
   display: flex;
   align-items: start;
+}
+.part4right5{
+  display:flex;justify-content: center;align-items: center;
+  gap: 15px;width: 784px;height: 50px;
+  background-color:#efefef;
+  border-radius: 15px;
+  color: black;
+
 }
