@@ -10,7 +10,7 @@ a {
 .flex {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 .flexa {
   display: flex;
@@ -575,7 +575,7 @@ a {
   width: 340px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 25px;
   padding-left: 10px;
 }
 .part4leftnumber {
@@ -601,10 +601,114 @@ a {
   width: 15px;
   height: 15px;
 }
-.part5{
-  display: flex;flex-direction: 
-  column;width: 1200px;
+.part5 {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: auto;
 }
-.part5header{ display: flex;
-   gap:25px;
+.part5header {
+  display: flex;
+  gap: 20px;
+  padding: 25px;
+}
+.part5base {
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  color: white;
+  transition: all 1s;
+}
+.part5base:hover .part5smallimgtxt {
+  height: fit-content;
+}
+.part5imgtext {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: -30px 0px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: start;
+  padding-left: 20px;
+  justify-content: start;
+}
+.part5bigimg {
+  width: 560px;
+  height: 500px;
+  border-radius: 15px;
+  transition: all 1s;
+}
+.part5bigimg:hover {
+  transform: scale(1.2);
+}
+.part5smallimg {
+  width: 300px;
+  height: 245px;
+  border-radius: 15px;
+  position: relative;
+  transition: all 1s;
+}
+.part5smallimg:hover {
+  transform: scale(1.2);
+}
+.part5texttitle {
+  background-color: #407ce8;
+  padding: 5px;
+  border-radius: 5px;
+}
+.part5smalltxt {
+  font-size: 18px;
+  font-stretch: wider;
+}
+.part5smallimgtext {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  left: 10px;
+  z-index: 1;
+  color: white;
+  opacity: 1 !important;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: start;
+  transition: all 1s;
+  /* height: 40px; */
+}
+.part5arrow {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.part5report {
+  display: flex;
+  gap: 15px;
+}
+.part5smallimgtxt {
+  font-size: 14px;
+  height: 35px;
+  overflow: hidden;
+}
+.part5smallimgarrow {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.part5imgtexttitle {
+  background-color: #407ce8;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.part5smallarrow {
+  width: 12px;
+  height: 12px;
 }
