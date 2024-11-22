@@ -601,3 +601,10 @@ a {
   width: 15px;
   height: 15px;
 }
+.part5{
+  display: flex;flex-direction: 
+  column;width: 1200px;
+}
+.part5header{ display: flex;
+   gap:25px;
+}
