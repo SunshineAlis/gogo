@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link rel="stylesheet" href="gogo.css" />
 </head>
@@ -11,47 +12,68 @@
   <div class="bigdiv">
     <div class="flexa">
       <div style="background-color: azure; width: fit-content; height: auto">
-        <!-- header -->
-        <div class="flex header">
+        <!-- part1 -->
+      <div class="part1header">
        <!-- part1 section1 -->
-          <div class="flex">
-            <img src="gogo-logo.345096b3.png" width="150px" />
-            <div class="flex">
-              <p class="box1">Mэдээ</p>
-              <p class="box1">Gogo булан</p>
-              <p class="box1">Үзэх</p>
-              <p class="box1">Хэв маяг</p>
-              <p class="box1">English</p>
-              <svg xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size" viewBox="0 0 24 24"
-                fill="none" stroke="currentColor" x-bind:stroke-width="stroke" stroke-linecap="round"
-                stroke-linejoin="round" width="24" height="24" stroke-width="2">
-                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
-                <path d="M21 21l-6 -6"></path>
-              </svg>
-            </div>
-          </div>
+       <div class="part10logo">
+        <img src="gogo-logo.345096b3.png">
+        <div class="flex">
+          <a href="https://gogo.mn/about-us"><div class="part10">
+          <p>Mэдээ</p>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+            <path d="M6 9l6 6l6 -6"></path>
+          </svg>
+        </div></a>
+        <a href="https://grapes.mn/info/1"><div class="part10">
+          <p>GoGo булан</p>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+            <path d="M6 9l6 6l6 -6"></path>
+          </svg>
+        </div></a>
+        <a href="https://gogo.mn/policy"><div class="part10">
+          <div class="part1icon"></div>
+          <p>Үзэх</p>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+            <path d="M6 9l6 6l6 -6"></path>
+          </svg>
+          </div></a>
+          <a href="https://gogo.mn/privacy"><div class="part10">
+          <p>Хэв маяг</p>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+            <path d="M6 9l6 6l6 -6"></path>
+          </svg>
+        </div></a>
+          <a href="https://gogo.mn/contact-us"><div class="part10">
+          <p>English</p>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+            <path d="M21 21l-6 -6"></path>
+          </svg>
+         </div></a>
+        </div>
+       </div>
           <!-- part1 section2 -->
-          <div class="flex">
-            <div>
-              <p class="box4">Цаг агаар</p>
+          <div style="display:flex; align-items: center;justify-content: center;gap:10px">
+            <div class="part1section2r">
+              <p style="width:55px;">Цаг агаар</p>
               <div class="flex">
-                <img class="img3" src="https://mgl.gogo.mn/newsn/v4/images/sun-icon.b61be7df.svg" />
-                <p class="box3">3</p>
+                <img src="https://mgl.gogo.mn/newsn/v4/images/sun-icon.b61be7df.svg" width="20" alt="">
+                <p>3</p>
               </div>
             </div>
-            <div>
-              <p class="box4">Зурхай</p>
+            <div class="part1section2r">
+              <p style="width:35px;">Зурхай</p>
               <div class="flex">
-                <img class="img3" src="https://mgl.gogo.mn/newsn/v4/images/calendar-icon.ff84145b.svg" />
-                <p class="box3">12.11</p>
+                <img src="https://mgl.gogo.mn/newsn/v4/images/calendar-icon.ff84145b.svg" width="17" alt="">
+                <p>12.11</p>
               </div>
             </div>
-            <div>
-              <p class="box4">Валютын ханш</p>
+            <div class="part1section2r">
+              <p style="width: 84px;">Валютын ханш</p>
               <div class="flex">
-                <p class="box6">$</p>
-                <p class="box5">|</p>
-                <p class="box3">3410₮</p>
+                <p style="color:green;">$</p>
+                <p>|</p>
+                <p >3410₮</p>
               </div>
             </div>
           </div>
@@ -101,12 +123,18 @@
                 хэрхэн мэдэх вэ?
               </p3>
             </div>
-            <button class="button2">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA
-                        A8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkklEQVR4nM3SMQ5BQRDG8V8iQuEYzqAXJ3AIjYYjKN1BrRF5FRolZ3CC14tKI1nNFi+ybyPb8CVTzfwn880M/64l9uiWwCsEHND7BhhggjnOEQ6ochMMscWzAXzGLgVO8chAoQ0e49UouOOI
+            <div class="part4leftarrow">
+              <div class="arrowtext">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkklEQVR4nM3SMQ5BQRDG8V8iQuEYzqAXJ3AIjYYjKN1BrRF5FRolZ3CC14tKI1nNFi+ybyPb8CVTzfwn880M/64l9uiWwCsEHND7BhhggjnOEQ6ochMMscWzAXzGLgVO8chAoQ0e49UouOOI
                         Da65sfuoY/ISvXYSC6tSfmcxuW7ZwyJ3qlPsWqQao1L4Vvo9v9EbI3EuQwlmLQEAAAAASUVORK5CYII="
-                alt="forward-arrow" />
-            </button>
+                  alt="forward-arrow" />
+                <p>0</p>
+              </div>
+              <div class="arrowtext">
+                <img src="https://mgl.gogo.mn//newsn/v4/images/comment-light.bd31b019.svg" width="12px" alt="">
+                <p>12</p>
+              </div>
+            </div>
           </div>
           <div class="Dv2-1">
             <img class="img" src="2.jpg" />
@@ -123,12 +151,18 @@
               Монголын анхны бизнес концепцтой “River castle” apartment-д тавтай
               морилно уу
             </p>
-            <button class="button2">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA
-                        A8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkklEQVR4nM3SMQ5BQRDG8V8iQuEYzqAXJ3AIjYYjKN1BrRF5FRolZ3CC14tKI1nNFi+ybyPb8CVTzfwn880M/64l9uiWwCsEHND7BhhggjnOEQ6ochMMscWzAXzGLgVO8chAoQ0e49UouOOI
+            <div class="part4leftarrow">
+              <div class="arrowtext">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkklEQVR4nM3SMQ5BQRDG8V8iQuEYzqAXJ3AIjYYjKN1BrRF5FRolZ3CC14tKI1nNFi+ybyPb8CVTzfwn880M/64l9uiWwCsEHND7BhhggjnOEQ6ochMMscWzAXzGLgVO8chAoQ0e49UouOOI
                         Da65sfuoY/ISvXYSC6tSfmcxuW7ZwyJ3qlPsWqQao1L4Vvo9v9EbI3EuQwlmLQEAAAAASUVORK5CYII="
-                alt="forward-arrow" />0
-            </button>
+                  alt="forward-arrow" />
+                <p>10</p>
+              </div>
+              <div class="arrowtext">
+                <img src="https://mgl.gogo.mn//newsn/v4/images/comment-light.bd31b019.svg" width="12px" alt="">
+                <p>20</p>
+              </div>
+            </div>
           </div>
           <div class="Dv2-1">
             <img class="img" src="3.jpg" />
@@ -145,15 +179,26 @@
               Хеликобактерийн шалтгаант ходоодны үрэвслийн онош хамгийн их
               байна.
             </p>
-            <button class="button2">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA
-                        A8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkklEQVR4nM3SMQ5BQRDG8V8iQuEYzqAXJ3AIjYYjKN1BrRF5FRolZ3CC14tKI1nNFi+ybyPb8CVTzfwn880M/64l9uiWwCsEHND7BhhggjnOEQ6ochMMscWzAXzGLgVO8chAoQ0e49UouOOI
+            <div class="part4leftarrow">
+              <div class="arrowtext">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkklEQVR4nM3SMQ5BQRDG8V8iQuEYzqAXJ3AIjYYjKN1BrRF5FRolZ3CC14tKI1nNFi+ybyPb8CVTzfwn880M/64l9uiWwCsEHND7BhhggjnOEQ6ochMMscWzAXzGLgVO8chAoQ0e49UouOOI
                         Da65sfuoY/ISvXYSC6tSfmcxuW7ZwyJ3qlPsWqQao1L4Vvo9v9EbI3EuQwlmLQEAAAAASUVORK5CYII="
-                alt="forward-arrow" />0</button>
+                  alt="forward-arrow" />
+                <p>0</p>
+              </div>
+              <div class="arrowtext">
+                <img src="https://mgl.gogo.mn//newsn/v4/images/comment-light.bd31b019.svg" width="12px" alt="">
+                <p>12</p>
+              </div>
+            </div>
           </div>
           <div class="d1">
             <img class="qrimg" src="qr.jpg" />
           </div>
+        </div>
+
+        <div class="mobile-header">
+          <h1>Mobile</h1>
         </div>
       </div>
     </div>
@@ -190,15 +235,6 @@
         <img class="part3img" src="part3-2.jpeg" />
         <p class="part3text"> ҮНЭ НЭМЭВ: Нэг сарын цахилгааны төлбөрт 36,000₮ төлдөг айлууд
           52,000₮ төлнө.</p>
-        <svg class="glogo" xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size"
-          viewBox="0 0 24 24" fill="none" stroke="currentColor" x-bind:stroke-width="stroke" stroke-linecap="round"
-          stroke-linejoin="round" width="24" height="24" stroke-width="2">15
-          <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
-          <path d="M9.608 17.682c-2.558 -.71 -4.76 -2.603 -6.608 -5.682c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"></path>
-          <path
-            d="M17.8 20.817l-2.172 1.138a.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a.39 .39 0 0 1 -.567 .411l-2.172 -1.138z">
-          </path>
-        </svg></p>
       </div>
       <div class="DV2side">
         <svg class="glogo" xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
