@@ -8,6 +8,16 @@ a {
   text-decoration: none;
   color: #000;
 }
+.part1section2e{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+.part1big{
+  background-color: #fdfaf5;
+  width:fit-content;height: auto;
+}
 .part1icon {
   width: 10px;
   height: 10px;
@@ -422,7 +432,7 @@ a {
 .parttext {
   color: #888888;
   padding-bottom: 15px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .part4right2 {
   display: flex;
@@ -888,22 +898,9 @@ a {
 .part1section2r p {
   width: fit-content;
 }
+.block{}
 
-.mobile-header {
-  display: none;
-}
-@media screen and (max-width: 960px) {
-  .dv2 {
-    display: none;
-  }
-
-  .dv3 {
-    display: none;
-  }
-  .mobile-header {
-    display: flex;
-  }
-  .block {
-    display: none;
-  }
+@media only screen and(max-width: 960px) and(min-width:375px) {
+  .dv2 {display:none}
+  .block{display:none}
 }
