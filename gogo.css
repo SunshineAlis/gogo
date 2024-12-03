@@ -388,11 +388,11 @@ a {
 }
 .part4right1 {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  gap: 8px;
-  margin: auto;
+  gap: 20px;
+ margin:auto;
   width: 100%;
+  
 }
 
 .part4div {
@@ -424,6 +424,7 @@ a {
   display: flex;
   align-items: center;
   gap: 20px;
+  width:100%;
 }
 .imgpart4 {
   width: 100%;
@@ -463,7 +464,7 @@ a {
   display: flex;
   justify-content: start;
   align-items: start;
-  font-size: 14px;
+  font-size: 12px;
   gap: 40px;
 }
 .arrowtext {
@@ -472,7 +473,7 @@ a {
   color: rgb(153, 126, 126);
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .timetext {
@@ -602,6 +603,7 @@ a {
   height: 10%;
   width: 100%;
   padding-left: 2%;
+  font-size:9px;
 }
 .arrowtext {
   display: flex;
@@ -636,6 +638,8 @@ a {
   flex-direction: column;
   gap: 5px;
   width: 100%;
+  font-size: 14px;
+  padding:5px;
 }
 .part4lefttrendflex {
   display: flex;
